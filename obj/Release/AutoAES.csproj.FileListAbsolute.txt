@@ -1,0 +1,9 @@
+C:\Users\Thoma\source\repos\AutoAES\bin\Release\AutoAES.exe.config
+C:\Users\Thoma\source\repos\AutoAES\bin\Release\AutoAES.exe
+C:\Users\Thoma\source\repos\AutoAES\bin\Release\AutoAES.pdb
+C:\Users\Thoma\source\repos\AutoAES\bin\Release\Newtonsoft.Json.dll
+C:\Users\Thoma\source\repos\AutoAES\bin\Release\Newtonsoft.Json.xml
+C:\Users\Thoma\source\repos\AutoAES\obj\Release\AutoAES.csproj.CoreCompileInputs.cache
+C:\Users\Thoma\source\repos\AutoAES\obj\Release\AutoAES.csproj.CopyComplete
+C:\Users\Thoma\source\repos\AutoAES\obj\Release\AutoAES.exe
+C:\Users\Thoma\source\repos\AutoAES\obj\Release\AutoAES.pdb
