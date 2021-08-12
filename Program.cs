@@ -39,7 +39,7 @@ namespace AutoAES
             }
             var process = new Process();
             process.StartInfo.FileName = "umodel.exe";
-            process.StartInfo.Arguments = $"-aes={response.MainKey} -sounds -3rdparty -game=ue4.27";
+            process.StartInfo.Arguments = $"-aes={response.MainKey} -sounds -3rdparty -game=ue4_latest";
             if(!process.Start())
             {
                 MessageBox((IntPtr)0, "Couldn't start UModel", "Error", 0);
