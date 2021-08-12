@@ -39,7 +39,7 @@ namespace AutoAES
             }
             var process = new Process();
             process.StartInfo.FileName = "umodel.exe";
-            process.StartInfo.Arguments = $"-aes={response.MainKey} -sounds -3rdparty -game=ue4.24";
+            process.StartInfo.Arguments = $"-aes={response.MainKey} -sounds -3rdparty -game=ue4.27";
             if(!process.Start())
             {
                 MessageBox((IntPtr)0, "Couldn't start UModel", "Error", 0);
@@ -49,7 +49,7 @@ namespace AutoAES
 
         private static async Task<BenBotAES> GetAESAsync()
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, "https://benbotfn.tk/api/v1/aes");
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://benbot.app/api/v1/aes");
             var response = await client.SendAsync(request);
             if(!response.IsSuccessStatusCode)
             {
